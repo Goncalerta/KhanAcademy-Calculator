@@ -257,7 +257,7 @@ void draw() {
     text("+", 266, 156, 50, 30);
     text("-", 269, 199, 50, 30);
     text("x", 332, 154, 50, 30);
-    text("�", 333, 201, 50, 30);
+    text("÷", 333, 201, 50, 30);
     
     text("=", 300, 246, 50, 30);
     text("C", 265, 296, 50, 30);
@@ -274,7 +274,7 @@ void draw() {
         case 1: standbyOperation = "+"; break;
         case 2: standbyOperation = "-"; break;
         case 3: standbyOperation = "*"; break;
-        case 4: standbyOperation = "�"; break;
+        case 4: standbyOperation = "÷"; break;
     }
     
     //Display Window
